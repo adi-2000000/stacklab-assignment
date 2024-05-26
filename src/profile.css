@@ -1,0 +1,110 @@
+/* profile.css */
+
+.container1 {
+    padding: 0px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.qr_page_loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loader_img {
+    width: 100px;
+}
+
+#qrc_page_qrcode_popup {
+    background: #fff;
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px hsla(0, 0%, 0%, 0.1);
+    max-width: 900px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+#qr_profile_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.qrc_profile_inner_info_popup {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.qrc_profile_pic_popup {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+.qrc_profile_company {
+    font-style: italic;
+    color: #666;
+}
+
+.qrc_profile_qrcode_popup img {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #e0e0e0;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.qr_popup_button_container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+   
+}
+
+.qrc_addtohomescreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    border: 2px solid;
+}
+/* CSS for the close button */
+.close-button {
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    background: none;
+    border: none;
+    font-size: 64px;
+    cursor: pointer;
+    color: #f4f0f0;
+}
+
+.close-button:hover {
+    color: #ff0000;
+}
+
+.qrc_action_button_icon img {
+    width: 32px;
+    height: 32px;
+
+}
+
+.qrc_addtohome_info img {
+    width: 100%;
+    margin-top: 10px;
+    
+}
